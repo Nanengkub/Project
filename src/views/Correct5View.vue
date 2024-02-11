@@ -1,6 +1,6 @@
 <template>
     <div class="corr5">
-        <img v-bind:src="picture" width="700" height="600">
+        <img src="../assets/correct.png" width="700" height="600">
         <h1>ถูกต้องแล้วค้าบบบ</h1>
     </div>
     <div class="col-sm-12">
@@ -12,11 +12,6 @@
   export default {
 
     name: 'App',
-    data(){
-      return{
-        picture:"https://i.pinimg.com/564x/9c/f9/0c/9cf90c52f493eee6a7760acd9dffa509.jpg"
-      }
-    },
     methods:{
       next(){
       localStorage.setItem("auth",false);

@@ -1,7 +1,10 @@
 <template>
     <div class="wrong1">
-        <img v-bind:src="picture" width="700" height="600">
+        <img src="../assets/wrong.png" width="700" height="600">
         <h1>ผิดจ้าาา</h1>
+        <p>
+          ฟ้าเกิด 26/2/50
+        </p>
     </div>
     <div class="col-sm-12">
     <button type="button" style="font-size:30px; position: relative; bottom: 0; right: 0;" class="btn btn-warning" @click="next()">NEXT</button>
@@ -12,11 +15,6 @@
   export default {
 
     name: 'App',
-    data(){
-      return{
-        picture:"https://i.pinimg.com/564x/9c/f9/0c/9cf90c52f493eee6a7760acd9dffa509.jpg"
-      }
-    },
     methods:{
       next(){
       localStorage.setItem("auth",false);

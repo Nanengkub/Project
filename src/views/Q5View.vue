@@ -1,21 +1,21 @@
 <template>
     <div class="Q5">
-      <p style="font-size:80px;">คำถาม?</p>
-      <button type="button" style="width:350px; height:350px; font-size:30px; position: fixed; bottom: 13cm; right: 28cm;" @click="wrong()"> A
-        <img v-bind:src="picture" width="300" height="300">
-        <p style="font-size:25px;">ans</p>
+      <p style="font-size:80px;">ทับสองคนไหนเข้าแถวเคารพธงชาติน้อยครั้งที่สุด?</p>
+      <button type="button" style="width:350px; height:350px; font-size:30px; position: fixed; bottom: 13cm; right: 28cm;" @click="correct()"> A
+        <img src="../assets/ty.jpg" width="300" height="300">
+        <p style="font-size:25px;">ธนกฤต</p>
       </button>
       <button type="button" style="width:350px; height:350px; font-size:30px; position: fixed; bottom: 13cm; right: 16cm;" @click="wrong()"> B
-        <img v-bind:src="picture" width="300" height="300">
-        <p style="font-size:25px;">ans</p>
+        <img src="../assets/m.jpg" width="300" height="300">
+        <p style="font-size:25px;">ภูชิต</p>
       </button>
-      <button type="button" style="width:350px; height:350px; font-size:30px; position: fixed; bottom: 3cm; right: 28cm;" @click="correct()"> C
-        <img v-bind:src="picture" width="300" height="300">
-        <p style="font-size:25px;">ans</p>
+      <button type="button" style="width:350px; height:350px; font-size:30px; position: fixed; bottom: 3cm; right: 28cm;" @click="wrong()"> C
+        <img src="../assets/namoon.jpg" width="300" height="300">
+        <p style="font-size:25px;">น้ำอุ่น</p>
       </button>
       <button type="button" style="width:350px; height:350px; font-size:30px; position: fixed; bottom: 3cm; right: 16cm;" @click="wrong()"> D
-        <img v-bind:src="picture" width="300" height="300">
-        <p style="font-size:25px;">ans</p>
+        <img src="../assets/new.jpg" width="300" height="300">
+        <p style="font-size:25px;">รุ่งรวีย์</p>
       </button>
     </div>
   </template>
