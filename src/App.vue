@@ -1,8 +1,13 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/detail">Detail</router-link>
+    <router-link to="/login">LOGIN</router-link> |
+    <router-link to="/First">HOME</router-link> |
+    <router-link to="/Q1">Q1</router-link> |
+    <router-link to="/Q2">Q2</router-link> |
+    <router-link to="/Q3">Q3</router-link> |
+    <router-link to="/Q4">Q4</router-link> |
+    <router-link to="/Q5">Q5</router-link> |
+    <router-link to="/end">END</router-link>
   </nav>
   <router-view/>
 </template>
